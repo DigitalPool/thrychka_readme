@@ -50,3 +50,22 @@ The script requires the following arguments:
 
 ```bash
 python sync.py /path/to/source /path/to/replica 10 /path/to/logs
+
+Explanation:
+
+/path/to/source – Folder to be monitored.
+/path/to/replica – Folder that will be updated to match the source.
+10 – Sync interval (in seconds).
+/path/to/logs – Location where logfile.log will be stored.
+Stopping the Script
+To safely stop the synchronization process, press Ctrl+C. The script will handle the interruption and exit cleanly.
+
+Potential Enhancements
+Improved Error Handling: Enhancing stability for real-world use.
+Bidirectional Sync: Supporting two-way synchronization in future versions.
+Config File Support: Allowing configuration without modifying command-line parameters.
+License
+This script is open for use and modification as needed.
+
+Acknowledgments
+Developed using Python’s built-in libraries to provide a simple yet powerful synchronization tool. Contributions and improvements are welcome!
