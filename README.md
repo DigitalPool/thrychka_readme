@@ -48,7 +48,6 @@ The script requires the following arguments:
 
 ### Example Usage
 
-```bash
 python sync.py /path/to/source /path/to/replica 10 /path/to/logs
 
 Explanation:
@@ -69,3 +68,5 @@ This script is open for use and modification as needed.
 
 Acknowledgments
 Developed using Python’s built-in libraries to provide a simple yet powerful synchronization tool. Contributions and improvements are welcome!
+
+```bash
