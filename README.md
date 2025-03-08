@@ -1,4 +1,4 @@
-```markdown
+```
 # Folder Synchronization Script
 
 This Python script synchronizes the contents of a source folder with a replica folder. It continuously copies new or updated files and directories from the source to the replica, while also deleting files or directories in the replica that no longer exist in the source. All operations are logged to a file for later review.
